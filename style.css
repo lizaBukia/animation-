@@ -1,0 +1,193 @@
+img{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+.sun{
+ height: 200px;
+ width: 200px;
+position: absolute;
+margin-left: 50%;
+animation: sunrise 10s infinite ;
+
+
+}
+
+.mars{
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   margin-left: 300px;
+   margin-top: 200px;
+   animation: mars 10s infinite;
+   
+}
+.venus{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 300px;
+    animation: venus 10s infinite;
+    
+}
+.Saturnx{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-top: 500px;
+    animation: saturnx 15s infinite;
+    
+}
+.neptune{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: 400px;
+    animation: neptune 25s infinite;
+
+}
+@keyframes sunrise{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(250px);
+        
+        
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+@keyframes mars{
+    0%{
+        transform: translateX(0);
+        transform: translatey(100px);
+        transform: scale(0.5, 0.7);
+
+        
+
+    
+    }
+    25%{
+        transform: translateX(500px);
+    }
+    
+    50% {
+        transform: translateX(1200px);
+       
+    }
+  
+    100%{
+
+        transform: translateX(0);
+        transform: translatey(100px);
+        transform: scale(0.5, 0.7);
+
+    }
+}
+@keyframes venus{
+    0%{
+        transform: translateX(0);
+        transform: translatey(100px);
+        transform: scale(0.5, 0.7);
+
+    }
+
+25%{
+    transform: translateX(200px);
+  
+}
+
+
+50% {
+    transform: translateX(800px);
+}
+75%{
+    transform: translateX(1300px);
+    
+}
+
+100%{
+
+    transform: translateX(0);
+    transform: translatey(100px);
+    transform: scale(0.5, 0.7);
+
+    
+}
+}
+@keyframes saturnx {
+
+    0%{
+        transform: translateX(0);
+        transform: translatey(100px);
+        transform: scale(0.5, 0.7);
+
+    }
+
+25%{
+    transform: translateX(500px);
+
+}
+
+
+50% {
+    transform: translateX(1200px);   
+
+
+
+}
+75%{
+    transform: translateX(500px);
+
+
+}
+
+100%{
+
+    transform: translateX(0);
+    transform: translatey(100px);
+    transform: scale(0.5, 0.7);
+
+
+    
+}
+}
+@keyframes neptune{
+    
+    0%{
+        transform: translateX(0);
+        transform: translatey(150px);
+        transform: scale(0.5, 0.7);
+
+    }
+
+25%{
+    transform: translateX(600px);
+
+}
+
+
+50% {
+    transform: translateX(1200px);   
+   
+
+
+
+}
+75%{
+    transform: translateX(600px);
+
+
+}
+
+100%{
+
+    transform: translateX(0);
+    transform: translatey(150px);
+    transform: scale(0.5, 0.7);
+}
+
+}
